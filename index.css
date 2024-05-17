@@ -1,4 +1,51 @@
-pre{
-    color:black;
-    font-size: large;
+#first_nav>ul>li>a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-left: 30px;
 }
+#select_item
+{
+margin-top: 10px;
+}
+#select_item>select
+{
+    border: none;
+    margin-left: 100px;
+    margin-bottom: 2px;
+    
+}
+#sec_nav>ul>li>a
+{
+    color: black;
+}
+#sec_nav>ul>li>a:hover{
+    border-bottom: 3px solid greenyellow;
+}
+#ani_link
+{
+animation-name: nav_link;
+animation-duration:2s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes nav_link{
+from
+{
+    color: greenyellow;
+}
+to 
+{
+    color: blue;
+}
+
+}
+#hero_container
+{
+    background-image: url("./images/carousal_background.d77d94e41c5a71ae581f.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size:contain;
+}
+ 
